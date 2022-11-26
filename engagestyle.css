@@ -1,0 +1,31 @@
+.engage-image{
+    width: 100%;
+    height:73vh;
+}
+
+.caption, h1{
+    color: white;
+    font-family:'Oswald', sans-serif ;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 3px;   
+}
+
+.enagement-details, .heading-1{
+    padding-top: 55px;
+    color: #833948;
+}
+
+.enagement-details, .sec-title-1{
+    color: #833948;
+    font-size: 20px;
+
+}
+
+.enagement-details .sec-details{
+    color: black;
+    font-size: 17px;
+}

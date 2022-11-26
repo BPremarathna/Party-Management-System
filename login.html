@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login and Registration </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="loginstyle.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/9c1531a844.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div class="hero">
+    <div id="login-form" class="login-page">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" onclick="login()" class="toggle-btn"><font color="white"><b>Log In</b></font></button>
+                <button type="button" onclick="register()" class="toggle-btn"><font color="white"><b>Register</b></font></button>
+            </div>
+            <form id="login" class="input-group-login">
+                <input type="text" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Enter password" required>
+                <div class="text-center">
+                    <button type="submit" class="submit-btn"><font color="white"><b>Log In</b></font></button>
+                </div>
+                    <div class="container">
+                        <label>
+                        <input type="checkbox" checked="checked" name="remember"><font color="white"><b> Remember me</b></font> 
+                      </label>
+                    </div>
+            </form>
+                <form id="register" class="input-group-register">
+                    <input type="radio" name="customer" value="role1" required> <font color="white"><b>Customer</b></font> &nbsp; &nbsp; &nbsp;
+    				<input type="radio" name="admin" value="role2" required><font color="white"><b> Admin</b></font>  &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="supplier" value="role2" required><font color="white"><b> Supplier</b></font>
+                    <input type="text" class="input-field" placeholder="First Name" required>
+                    <input type="text" class="input-field" placeholder="Last Name" required>
+                    <input type="email" class="input-field" placeholder="Email" required>
+                    <input type="password" class="input-field" placeholder="Password" required>
+                    <input type="password" class="input-field" placeholder="Confirm Password" required> 
+                    <input type="checkbox" checked="checked" name="terms"><font color="white"><b> I agree to the terms & conditions</b></font> 
+                     
+                    
+                    <button type="submit" class="submit-btn1" ><div class="bottom"><font color="white"><b>Register</b></font></div></button> 
+                </form>
+            
+        </div>
+    </div>
+</div>
+        <script>
+            var x=document.getElementById("login");
+            var y=document.getElementById("register");
+            var z=document.getElementById("btn");
+            function register()
+            {
+                x.style.left="-400px";
+                y.style.left="50px";
+                z.style.left="110px";
+            }
+            function login()
+            {
+                x.style.left="50px";
+                y.style.left="450px";
+                z.style.left="0px"; 
+            }
+        </script>
+        <script>
+            var model = document.getElementById("login-form");
+            window.onclick=function(event)
+            {
+                if (event.target == model)
+                {
+                    model.style.display = "none";
+                }
+            }
+        </script>
+</body>
+</html>
