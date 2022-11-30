@@ -112,6 +112,12 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.cakes2 .box-container2 .box2 span{
+    color: black;
+    font-weight: lighter;
+    font-size: 23px ;
+}
+
 .supplier-section3{
     background: #f4f4f4;
     margin-top: 40px;
@@ -144,4 +150,10 @@
 
 .cakes3 .box-container3 .box3:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cakes3 .box-container3 .box3 span{
+    color: black;
+    font-weight: lighter;
+    font-size: 23px ;
 }
