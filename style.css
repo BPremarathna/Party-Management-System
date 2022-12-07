@@ -241,7 +241,7 @@
 /* footer */
 
 #footer-area{
-  padding: 90px 0 60px 0;
+  padding: 40px 0 60px 0;
   background: #fff;
   background-size: contain;
 }
@@ -261,6 +261,7 @@
 .single-footer p{
   font-size: 12px;
   font-family: sans-serif;
+  margin-left: 2px;
   text-align: left;
 }
 
