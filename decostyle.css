@@ -10,7 +10,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: rgb(97, 24, 96);
     font-family: 'Oswald', sans-serif;
     font-size: 100px;
     letter-spacing: 3px;
@@ -20,9 +20,11 @@
 {
     text-align: center;
     color: var(--black);
-    font-size: 3rem;
-    padding-bottom: 2rem;
+    font-size: 4rem;
+    
     text-transform: uppercase;
+    padding-top: 3rem;
+    font-family: 'Lobster', cursive;
 }
 
 .sub-heading
@@ -30,7 +32,7 @@
     text-align: left;
     color: #833948;
     font-size: 2rem;
-    padding-top: 1rem;
+    
 }
 
 .contact-area li
@@ -121,7 +123,7 @@
 .dishes .box-container .box h3
 {
     font-size: 25px;
-    color: var(--green);
+    color: #84298e;
 }
 
 .dishes .box-container .box img
@@ -171,7 +173,7 @@
 
 .dishes-1 .box-container-1 .box-1 h3
 {
-    color: #FF1493;
+    color: #84298e;
     font-size: 25px;
 }
 
@@ -200,9 +202,11 @@
 {
     text-align: center;
     color: var(--black);
-    font-size: 3rem;
-    padding-bottom: 2rem;
+    font-size: 4rem;
+    
     text-transform: uppercase;
+    padding-top: 3rem;
+    font-family: 'Lobster', cursive;
 }
 
 .sub-heading-2
@@ -210,7 +214,7 @@
     text-align: left;
     color: #833948;
     font-size: 2rem;
-    padding-top: 1rem;
+    
     
 }
 
@@ -284,7 +288,7 @@
     text-align: left;
     color: #833948;
     font-size: 2rem;
-    padding-top: 1rem;
+    padding-top: 3rem;
     
 }
 
@@ -344,7 +348,7 @@
 .dishes-3 .box-container-3 .box-3 h3
 {
     font-size: 25px;
-    color: var(--green);
+    color: #84298e;
 }
 
 .dishes-3 .box-container-3 .box-3 img
@@ -358,7 +362,7 @@
     text-align: left;
     color: #833948;
     font-size: 2rem;
-    padding-top: 1rem;
+    padding-top: 3rem;
     
 }
 
@@ -418,7 +422,7 @@
 .dishes-4 .box-container-4 .box-4 h3
 {
     font-size: 25px;
-    color: var(--green);
+    color: #84298e;
 }
 
 .dishes-4 .box-container-4 .box-4 img
