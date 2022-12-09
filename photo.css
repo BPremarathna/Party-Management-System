@@ -147,6 +147,12 @@
     padding-right: 0px;
     grid-gap: 30px;
   }
+   .packages{
+    border-radius: .5rem;
+    border: 0.5rem solid rgba(0, 0, 0, .2);
+    box-shadow: var(--box-shadow);
+    }
+  
   .btn{
     text-align: center;
     color: #57a0e4;
