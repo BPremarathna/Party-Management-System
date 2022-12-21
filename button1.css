@@ -1,7 +1,7 @@
 .button{
     display:inline-block;
-    height: 400px;
-    width:350px;
+    height: 50px;
+    width:150px;
     padding:0;
     background:rgb(150, 150, 231);
     border: none;
