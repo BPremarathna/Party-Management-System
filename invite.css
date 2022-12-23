@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #4A98F7;
+    background: #833948;
   }
   .container{
     display: flex;
@@ -48,7 +48,7 @@
     padding-left: 10px;
   }
   .option:is(:hover, .active) :where(span, label){
-    color: #4A98F7;
+    color: #833948;
   }
   .option #fill-color{
     cursor: pointer;
@@ -56,7 +56,7 @@
     width: 14px;
   }
   #fill-color:checked ~ label{
-    color: #4A98F7;
+    color: #833948;
   }
   .option #size-slider{
     width: 100%;
@@ -117,12 +117,12 @@
     padding: 11px 0;
     font-size: 0.9rem;
     margin-bottom: 13px;
-    background: rgb(45, 45, 236);
+    background: #833948;
     border-radius: 4px;
     cursor: pointer;
 }
 .buttons .clear-canvas{
-  color: #6C757D;
+  color: white;
   border: 1px solid #6C757D;
   transition: all 0.3s ease;
 }
@@ -131,21 +131,28 @@
   background: #6C757D;
 }
 .buttons .save-img{
-  background: #4A98F7;
-  border: 1px solid #4A98F7;
+  background: #833948;
+  border: 1px solid #833948;
 }
 .buttons .submit{
-  background: #4A98F7;
-  border: 1px solid #4A98F7;
+  background: #833948;
+  border: 1px solid #833948;
 }
 .buttons .back{
-  background: #4A98F7;
-  border: 1px solid #4A98F7;
+  background: #833948;
+  border: 1px solid #833948;
 }
 .submit:hover{
   color: #fff;
   background: #6C757D;
 }
+
+.save-img:hover{
+  color:#fff ;
+  background: #6C757D;
+
+}
+
 .back:hover{
   color: #fff;
   background: #6C757D;
